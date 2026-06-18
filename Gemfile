@@ -59,3 +59,5 @@ group :test do
 end
 
 gem "sassc-rails"
+
+gem "importmap-rails", "~> 2.2"
