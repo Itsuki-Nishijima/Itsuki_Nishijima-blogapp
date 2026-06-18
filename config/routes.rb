@@ -13,4 +13,6 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   root to: 'articles#index'
+
+  resources :articles, only: [:show]
 end
