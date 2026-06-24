@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# BlogApp
 
-Things you may want to cover:
+## アプリ概要
+記事の投稿・閲覧ができるブログアプリです
 
-* Ruby version
+## 使用技術
+- Ruby 3.2.2
+- Ruby on rails 7.2.3
+- SQLite3
+- Devise
+- Haml
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 実装機能
+- ユーザー登録・ログイン
+- 記事投稿
+- コメント機能
+- いいね機能
+- プロフィール編集
